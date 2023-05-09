@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xjUAizL0Wg1yv8632+9IozFZDqIlgzFrnTVgFVNDGnP3giSxo3mv5YeNQoI8eXGylNEubxMLb9R0qW8HyRPpCQ==",
+  "dgSpecHash": "a8EZ2bgveuL0cFquK3MHZfX7HOxl0smfZkJ7fvYWLZrxZwCwaGFNAYfaidlXIxorDsHaywOuML+QRUkgKJWEEg==",
   "success": true,
-  "projectFilePath": "E:\\programacion\\learning c#\\new\\CarlosAPP\\CarlosAPP.csproj",
+  "projectFilePath": "C:\\Users\\cvirg\\source\\repos\\CarlosApp\\ProductApp\\CarlosAPP.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cvirg\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\cvirg\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

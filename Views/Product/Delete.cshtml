@@ -1,0 +1,36 @@
+﻿@model Product
+@{
+    ViewData["Title"] = "Create";
+}
+
+<form method="post">
+    <div class="border p-3 mt-4">
+        <h2 class="text-primary">
+            You are about to Delete the product
+        </h2>
+        </hr>
+        <input type="hidden" asp-for="Id"/>
+        <div class="mb-3">
+            <label asp-for="Name"></label>
+            <input asp-for="Name" disabled class="form-control" />            
+        </div>
+        <div class="mb-3">
+            <label asp-for="Description"></label>
+            <input asp-for="Description" disabled class="form-control" />
+        </div>
+        <div class="mb-3">
+            <label asp-for="PriceUSD"></label>
+            <input asp-for="PriceUSD" disabled class="form-control" />
+        </div>
+        <div class="mb-3">
+            <label asp-for="ImageURL"></label>
+            <input asp-for="ImageURL" disabled class="form-control" />
+        </div>
+        <button class="btn btn-danger" type="submit" asp-controller="Product" asp-action="Delete" asp-route-id="@Model.Id">Delete</button>
+        <a asp-controller="Home" asp-action="Index" class="btn btn-secondary" style="width:150px">
+            Back to List
+        </a>
+    </div>
+</form>
+
+

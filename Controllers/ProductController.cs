@@ -1,7 +1,7 @@
 ﻿using CarlosAPP.Data;
 using CarlosAPP.Models;
 using Microsoft.AspNetCore.Mvc;
-
+using System.Security.Cryptography;
 
 namespace CarlosAPP.Controllers
 {
@@ -69,6 +69,32 @@ namespace CarlosAPP.Controllers
                 return RedirectToAction("Index");
             }
             return View(product);
+        }
+        //GET
+        public IActionResult Delete (int id) 
+        {
+            if(id == null || id == 0) 
+            {
+                return NotFound();
+            }
+            var product = _db.Products.Find(id);
+            if (product == null) 
+            {
+                return NotFound();
+            };
+            return View(product);
+            
+        }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Delete (int? id)
+        {
+            var obj = _db.Products.Find(id);
+            if (obj == null) { return NotFound();}
+            _db.Products.Remove(obj);
+            _db.SaveChanges();
+            TempData["success"] = "Category deleted successfully";
+            return RedirectToAction("Index");
         }
     }
 }

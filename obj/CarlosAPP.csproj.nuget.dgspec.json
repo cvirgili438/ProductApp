@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\programacion\\learning c#\\new\\CarlosAPP\\CarlosAPP.csproj": {}
+    "C:\\Users\\cvirg\\source\\repos\\CarlosApp\\ProductApp\\CarlosAPP.csproj": {}
   },
   "projects": {
-    "E:\\programacion\\learning c#\\new\\CarlosAPP\\CarlosAPP.csproj": {
+    "C:\\Users\\cvirg\\source\\repos\\CarlosApp\\ProductApp\\CarlosAPP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\programacion\\learning c#\\new\\CarlosAPP\\CarlosAPP.csproj",
+        "projectUniqueName": "C:\\Users\\cvirg\\source\\repos\\CarlosApp\\ProductApp\\CarlosAPP.csproj",
         "projectName": "CarlosAPP",
-        "projectPath": "E:\\programacion\\learning c#\\new\\CarlosAPP\\CarlosAPP.csproj",
+        "projectPath": "C:\\Users\\cvirg\\source\\repos\\CarlosApp\\ProductApp\\CarlosAPP.csproj",
         "packagesPath": "C:\\Users\\cvirg\\.nuget\\packages\\",
-        "outputPath": "E:\\programacion\\learning c#\\new\\CarlosAPP\\obj\\",
+        "outputPath": "C:\\Users\\cvirg\\source\\repos\\CarlosApp\\ProductApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\cvirg\\AppData\\Roaming\\NuGet\\NuGet.Config",
